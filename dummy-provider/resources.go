@@ -134,7 +134,7 @@ func Provider() tfbridge.ProviderInfo {
 		},
 		Golang: &tfbridge.GolangInfo{
 			ImportBasePath: filepath.Join(
-				"github.com/github.com/Eclion/pulumi-playground/dummy-sdk/",
+				"github.com/Eclion/pulumi-playground/dummy-sdk/",
 				tfbridge.GetModuleMajorVersion(version.Version),
 				"go",
 				mainPkg,

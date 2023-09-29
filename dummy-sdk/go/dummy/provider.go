@@ -7,7 +7,7 @@ import (
 	"context"
 	"reflect"
 
-	"github.com/github.com/Eclion/pulumi-playground/dummy-sdk/go/dummy/internal"
+	"github.com/Eclion/pulumi-playground/dummy-sdk/go/dummy/internal"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumix"
 )
