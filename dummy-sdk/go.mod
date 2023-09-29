@@ -1,13 +1,11 @@
-module github.com/Eclion/pulumi-playground/example
+module github.com/Eclion/pulumi-playground/dummy-sdk
 
 go 1.21.0
 
 require (
-	github.com/Eclion/pulumi-playground/dummy-sdk v0.0.0-20230929090446-15f1174275f5
+	github.com/blang/semver v3.5.1+incompatible
 	github.com/pulumi/pulumi/sdk/v3 v3.86.0
 )
-
-replace github.com/Eclion/pulumi-playground/dummy-sdk => ../dummy-sdk
 
 require (
 	github.com/Microsoft/go-winio v0.5.2 // indirect
@@ -18,7 +16,6 @@ require (
 	github.com/apparentlymart/go-textseg/v13 v13.0.0 // indirect
 	github.com/atotto/clipboard v0.1.4 // indirect
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
-	github.com/blang/semver v3.5.1+incompatible // indirect
 	github.com/charmbracelet/bubbles v0.16.1 // indirect
 	github.com/charmbracelet/bubbletea v0.24.2 // indirect
 	github.com/charmbracelet/lipgloss v0.7.1 // indirect
