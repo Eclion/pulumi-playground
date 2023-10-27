@@ -1,4 +1,4 @@
-module github.com/Eclion/pulumi-playground/dummy-provider
+module github.com/Eclion/pulumi-playground/tf-bridge/dummy-provider
 
 go 1.20
 

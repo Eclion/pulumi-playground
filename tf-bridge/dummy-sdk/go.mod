@@ -1,4 +1,4 @@
-module github.com/Eclion/pulumi-playground/dummy-sdk
+module github.com/Eclion/pulumi-playground/tf-bridge/dummy-sdk
 
 go 1.21.0
 
