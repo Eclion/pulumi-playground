@@ -15,8 +15,8 @@
 package main
 
 import (
-	dummy "github.com/Eclion/pulumi-playground/dummy-provider"
-	"github.com/Eclion/pulumi-playground/dummy-provider/pkg/version"
+	dummy "github.com/Eclion/pulumi-playground/tf-bridge/dummy-provider"
+	"github.com/Eclion/pulumi-playground/tf-bridge/dummy-provider/pkg/version"
 	"github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfgen"
 )
 

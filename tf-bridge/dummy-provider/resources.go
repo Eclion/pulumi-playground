@@ -17,7 +17,7 @@ package dummy
 import (
 	"path/filepath"
 
-	"github.com/Eclion/pulumi-playground/dummy-provider/pkg/version"
+	"github.com/Eclion/pulumi-playground/tf-bridge/dummy-provider/pkg/version"
 	"github.com/kerraform/terraform-provider-dummy/dummy"
 	"github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfbridge"
 	shim "github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfshim"
@@ -134,7 +134,7 @@ func Provider() tfbridge.ProviderInfo {
 		},
 		Golang: &tfbridge.GolangInfo{
 			ImportBasePath: filepath.Join(
-				"github.com/Eclion/pulumi-playground/dummy-sdk/",
+				"github.com/Eclion/pulumi-playground/tf-bridge/dummy-sdk/",
 				tfbridge.GetModuleMajorVersion(version.Version),
 				"go",
 				mainPkg,

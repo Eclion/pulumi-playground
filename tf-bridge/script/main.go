@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Eclion/pulumi-playground/dummy-sdk/go/dummy"
+	"github.com/Eclion/pulumi-playground/tf-bridge/dummy-sdk/go/dummy"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
 )
 
